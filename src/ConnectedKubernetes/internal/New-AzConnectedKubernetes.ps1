@@ -37,7 +37,7 @@ function New-AzConnectedKubernetes {
 [OutputType([Microsoft.Azure.PowerShell.Cmdlets.ConnectedKubernetes.Models.Api20221001Preview.IConnectedCluster])]
 [CmdletBinding(DefaultParameterSetName='CreateExpanded', PositionalBinding=$false, SupportsShouldProcess, ConfirmImpact='Medium')]
 param(
-            [Parameter(Mandatory)]
+        [Parameter(Mandatory)]
         [Alias('Name')]
         [Microsoft.Azure.PowerShell.Cmdlets.ConnectedKubernetes.Category('Path')]
         [System.String]
